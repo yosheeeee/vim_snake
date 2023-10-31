@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>vim-snake</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <h1>Vim snake</h1>
+    <h1>Score: <span id="score">0</span></h1>
+    <div id="field"></div>
+    <div class="result inactive">
+      <h1>Result: <span id="result"></span></h1>
+      <button>Restart</button>
+    </div>
+    <div class="navigation">
+      <div class="navblock">
+        <div class="navitem up">
+          <span class="material-symbols-outlined"> north </span> k
+        </div>
+      </div>
+      <div class="navblock">
+        <div class="navitem">
+          <span class="material-symbols-outlined"> west </span> h
+        </div>
+        <div class="navitem">
+          l
+          <span class="material-symbols-outlined"> east </span>
+        </div>
+      </div>
+      <div class="navblock">
+        <div class="navitem down">
+          j
+          <span class="material-symbols-outlined"> south </span>
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>

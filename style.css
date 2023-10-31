@@ -1,0 +1,87 @@
+*{
+    font-family: "Source Code Pro";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #9b9fa9;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color:#3a3e42;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+h1{
+    color: #9b9fa9;
+    margin-bottom: 10px;
+}
+#field{
+    max-width: 800px;
+    max-height: 800px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:center;
+}
+.cube{
+    background-color: #1F1F23FF;
+    margin: 1px;
+    width: 16px;
+    height: 16px;
+    border-radius: 2px;
+    transition: 50ms ease-in-out;
+}
+.navigation{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.navblock{
+    display: flex;
+    align-items: center;
+    gap:50px;
+}
+.navitem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+.navitem.up, .navitem.down{
+    flex-direction: column;
+}
+
+
+.snake{
+    background-color: #c52626;
+    box-shadow:0 0 10px #c52626;
+}
+.apple{
+    background-color: #48a952;
+    box-shadow: 0 0 10px #48a952 ;
+}
+.inactive{
+    display: none;
+}
+button{
+    padding: 10px;
+    font-size: 25px;
+    background-color: inherit;
+    color: #9b9fa9;
+    border-radius: 10px;
+    border: 2px solid #9b9fa9;
+}
+.material-symbols-outlined{
+color: #9b9fa9;
+}
+button:hover{
+    background-color: #535a5b;
+}
